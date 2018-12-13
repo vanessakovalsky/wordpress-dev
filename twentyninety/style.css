@@ -1,0 +1,15 @@
+/*
+  Theme Name: Twenty Ninety
+  Theme URI: http://localhost/wordpress
+  Description: Theme enfant de twenty nineteen
+  Author: Vanessa David
+  Author URI: http://github.com/vanessakovalsky
+  Template: twentynineteen
+  License: GNU GPL
+  License URI: http://tpot.combak
+  Tags: purple, demo, photograph
+*/
+
+body {
+  background-color: purple;
+}
