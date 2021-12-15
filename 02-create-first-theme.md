@@ -44,20 +44,6 @@ Cet exercice a pour objectifs :
 ```
 * Nous allons maintenant déclarer les thème au travers d'un commentaire dans le dernier fichier (style.css). Cela se fait au travers de métadonnées déclarées dans un commentaire : 
 ```css
-01
-02
-03
-04
-05
-06
-07
-08
-09
-10
-11
-12
-13
-	
 /*
 Theme Name: Kovalibre
 Theme URI: https://www.kovalibre.com/
