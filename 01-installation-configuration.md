@@ -213,7 +213,7 @@ require_once ABSPATH . 'wp-settings.php';
     "wordpress/wordpress": "5.8.2",
     "koodimonni-language/core-fr_fr": "*",
     "wpackagist-theme/twentytwentyone": "*",
-    "wpackagist-plugin/akismet": "dev-trunk"
+    "wpackagist-plugin/akismet": "^4.2.1"
   },
   "repositories": [
     {
