@@ -324,6 +324,16 @@ wp-content/plugins/*
 git init
 composer install
 ```
+> En cas d'erreur de ce type 
+```
+[Symfony\Component\Process\Exception\ProcessTimedOutException]                                                                                                                                           
+  The process "git clone --no-checkout 'https://github.com/PHPOffice/PhpSpreadsheet.git' '/var/www/html/simpok/vendor/phpoffice/phpspreadsheet' && cd '/var/www/html/simpok/vendor/phpoffice/phpspreadshe  
+  et' && git remote add composer 'https://github.com/PHPOffice/PhpSpreadsheet.git' && git fetch composer" exceeded the timeout of 300 seconds.  
+```
+> Utiliser la commande : 
+```
+export COMPOSER_PROCESS_TIMEOUT=900
+```
 * Votre projet est alors prêt à être installé, ouvrez un navigateur et suivre les étapes d'installation
 
 ### Avec docker-compose
