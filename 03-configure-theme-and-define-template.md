@@ -320,7 +320,8 @@ get_header(); ?>
 ### Le contenu de la page
 * Nous allons ensuite étudier [la boucle](https://codex.wordpress.org/fr:La_Boucle) qui permet d'afficher le contenu de la page. Celle-ci va aller chercher l'ensemble des articles présent en base de données et les afficher. 
 ```php
-<?php if ( is_search() ) : // Only display Excerpts for Search ?>
+<?php 
+if ( is_search() ) : // Only display Excerpts for Search ?>
 <div class="entry-summary">
      <?php the_excerpt(); ?>
 </div><!-- .entry-summary -->
