@@ -192,7 +192,7 @@ public function widget( $args, $instance ) {
 * On n'oublie pas de déclarer notre widget à WordPress avec un hook action pour que celui-ci soit détecté et disponible dans WordPress
 ```php
 add_action( 'widgets_init', function() {
-     register_widget( 'TutsplusText_Widget' );
+     register_widget( 'KovalibreSocialNetwork_Widget' );
 });
 ```
 * Vous pouvez maintenant aller dans l'administration pour ajouter votre plugin à la zone de votre choix
