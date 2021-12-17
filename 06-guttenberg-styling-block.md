@@ -113,7 +113,7 @@ wp.blocks.registerBlockStyle(
 
 * Installer le plugin Reusable Blocks Extends : https://fr.wordpress.org/plugins/reusable-blocks-extended/
 ```
-composer require wpackagist-plugins/reusable-blocks-extended
+composer require wpackagist-plugin/reusable-blocks-extended
 ```
 * Activer le plugin dans l'interface
 * Aller dans la page d'accueil que vous avez créé, et créer un nouveau bloc de texte avec le contenu de votre choix. Vous avez maintenant la possibilité de l'enregistrer comme bloc réutilisable, faite le.
@@ -125,5 +125,7 @@ composer require wpackagist-plugins/reusable-blocks-extended
 
 ## Pour aller plus loin : 
 * Définir sa propre composition : https://la-webeuse.com/compositions-gutenberg-patterns-motifs/
-* Créer son propre type de bloc : https://code.tutsplus.com/tutorials/building-gutenberg-blocks-with-create-guten-block--cms-31519 
+* Créer son propre type de bloc avec un outil de génération : https://code.tutsplus.com/tutorials/building-gutenberg-blocks-with-create-guten-block--cms-31519 
+* Développer de A à Z sont type de block : https://capitainewp.io/formations/wordpress-creer-blocs-gutenberg/declarer-bloc-gutenberg/ 
 * Un exemple de plugin de bloc : https://github.com/ArmandPhilippot/post-types-query-block 
+* Créer un type de bloc depuis l'interface avec un Plugin : https://novo-media.ch/programmation/wp-blocs-gutenberg-personnalises-plugin-lazy-blocks/ 
