@@ -201,5 +201,17 @@ add_action( 'widgets_init', function() {
 * Vous pouvez définir vos propres styles et scripts avec wp_enqueue_style et wp_enqueue_script, mais aussi prévoir l'ajout de logo, l'activation ou non de certains réseaux sociaux, etc.
 * Créer un autre plugin avec une déclaration de widget pour le bloc de présentation qui est présent sur la page d'accueil (le bloc référente ...)
 
+## Bonus - Rendre son plugin traductible
+* Afin de permettre la traduction de notre plugin, il convient de dire à WordPress que notre plugin est traduisible en ajoutant ces deux lignes dans la déclaration du plugin : 
+```php
+Domain Path: /languages
+Text Domain: kovalibre
+```
+* Puis de vérifier que vous avez bien utiliser les [fonctions qui permettre la traduction](https://vincentdubroeucq.com/internationaliser-theme-extension-wordpress/) des chaines dans votre code
+* Ensuite nous pouvons générer le fichier de traduction de différentes manière :
+  * avec wp-cli : https://developer.wordpress.org/cli/commands/i18n/make-pot/ 
+  * avec une extension comme WPML https://wpml.org/fr/ 
+* Une fois le fichier pot de traduction recupérer, il ne vous reste plus qu'à traduire les chaines dans les languages de votre choix (sans oublier d'ajouter les langues correspondante dans wordpress [avec composer par exemple](https://www.bjornjohansen.com/composer-wordpress-translations))
+
 ## Pour aller plus loin 
 * Un exemple plus complet de ce widget est disponible ici : https://github.com/ArmandPhilippot/minimalist-social-links-widget/ 
