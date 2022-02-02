@@ -1,0 +1,1 @@
+https://themeshaper.com/2012/11/02/the-wordpress-theme-single-post-post-attachment-404-templates/
